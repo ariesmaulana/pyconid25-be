@@ -39,7 +39,7 @@ jobs:
         run: python -c "import sys; print(sys.version)"
 
       #  This work around, because currently we dont change to pyproject file yet
-      - name: Initiate pyprojec
+      - name: Initiate projects
         run: uv init .
 
       - name: Install dependencies using uv
